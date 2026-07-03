@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState, useCallback } from "react";
 import "./App.css";
 
-const API = "/api/alerts";
+const API = "https://disaster-tracker-api.onrender.com/api/alerts";
 
 const SEVERITIES = ["critical", "high", "medium", "low"];
 const TYPES = ["flood", "wildfire", "earthquake", "storm", "landslide", "other"];
