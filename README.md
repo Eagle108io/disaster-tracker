@@ -68,9 +68,9 @@ Open `http://localhost:5173` in your browser.
   "title": "Flash Flood Warning",
   "type": "flood",
   "severity": "high",       // low | medium | high | critical
-  "location": "Klang Valley, Selangor",
-  "latitude": 3.0738,        // optional
-  "longitude": 101.5183,     // optional
+  "location": "Your Locationr",
+  "latitude": default,        // optional
+  "longitude": default,     // optional
   "description": "...",      // optional
   "status": "active"         // active | resolved
 }
